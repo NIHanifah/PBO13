@@ -19,8 +19,6 @@ public class dataMember extends RentalImprove {
     ArrayList<String> Member = new ArrayList<>();
     ArrayList<String> NamaMember = new ArrayList<>();
     ArrayList<String> jnisMember = new ArrayList<>();
-//    gold g = new gold();
-//    premium p = new premium();
     
     Scanner idinput = new Scanner(System.in);
     Scanner data = new Scanner(System.in);
@@ -177,7 +175,6 @@ public class dataMember extends RentalImprove {
         
         return total;
     }
-    
     
     ArrayList anggota(){
         this.Member.add("M001");
